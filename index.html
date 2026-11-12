@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zeroless – Type 5k, get 5,000</title>
+<meta name="description" content="Zeroless is a calculator that understands shortcuts: 5k, 1.5M, 5k + 15%, 20% of 5k.">
+<style>
+  :root { --bg:#f4f5f7; --surface:#ffffff; --text:#16181d; --muted:#5b6270; --accent:#2e5bff; --border:#e2e5ea; --chip:#fff1de; --chipText:#a1520b; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0e1014; --surface:#171a20; --text:#f2f4f7; --muted:#9aa3af; --accent:#7d9bff; --border:#2a2f38; --chip:#3a2a14; --chipText:#f5b867; } }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:40px; letter-spacing:-0.5px; margin:0; }
+  .tagline { font-size:20px; color:var(--muted); margin:4px 0 32px; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:20px; margin-bottom:16px; }
+  .row { display:flex; justify-content:space-between; gap:12px; padding:8px 0; border-bottom:1px solid var(--border); font-variant-numeric:tabular-nums; }
+  .row:last-child { border-bottom:0; }
+  .row code { background:var(--chip); color:var(--chipText); border-radius:6px; padding:2px 8px; font-weight:600; }
+  ul { padding-left:20px; }
+  footer { margin-top:40px; font-size:14px; color:var(--muted); display:flex; gap:16px; flex-wrap:wrap; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Zeroless</h1>
+  <p class="tagline">Type 5k, get 5,000.</p>
+
+  <div class="card">
+    <div class="row"><code>5k + 15%</code><span>= 5,750</span></div>
+    <div class="row"><code>1.25M x 2</code><span>= 2,500,000</span></div>
+    <div class="row"><code>20% of 5k</code><span>= 1,000</span></div>
+    <div class="row"><code>2k5 x 12</code><span>= 30,000</span></div>
+  </div>
+
+  <div class="card">
+    <ul>
+      <li>Shortcuts k, M, B (or Md) and T, with 1.5k or 1,5k.</li>
+      <li>Results in short form (1.25M), in full, or in words.</li>
+      <li>Offline history with pinning, copy and share.</li>
+      <li>English and French, light and dark themes.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <span>© 2026 Corementora</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="privacy.html#fr">Politique de confidentialité</a>
+    <a href="mailto:corementora@gmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
